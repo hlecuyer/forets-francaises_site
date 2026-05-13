@@ -696,7 +696,7 @@ a { color: inherit; }
 .projection {
   background: var(--fir-deep);
   color: var(--bg);
-  padding: var(--s-10) var(--s-5);
+  padding: var(--s-7) var(--s-5);
   position: relative;
   overflow: hidden;
 }
@@ -736,8 +736,8 @@ a { color: inherit; }
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: var(--s-8);
-  margin-top: var(--s-7);
-  align-items: start;
+  margin-top: var(--s-6);
+  align-items: center;
 }
 @media (max-width: 900px) { .projection-body { grid-template-columns: 1fr; gap: var(--s-6); } }
 .projection p {
