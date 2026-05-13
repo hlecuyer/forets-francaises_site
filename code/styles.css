@@ -352,6 +352,9 @@ a { color: inherit; }
   0%,100% { transform: scaleY(0.4); transform-origin: top; opacity: 0.4; }
   50% { transform: scaleY(1); transform-origin: top; opacity: 1; }
 }
+@media (max-width: 720px) {
+  .hero__scroll { display: none; }
+}
 
 /* Synopsis ────────────────────────────────────────────── */
 .synopsis-pull {
