@@ -19,6 +19,6 @@ Le site est déployé sur Vercel depuis le dossier `code/`. Voir `code/README.md
 
 ## Crédits
 
-- **Réalisation & contenu** : Camille Geoffray — [LinkedIn](https://www.linkedin.com/in/camille-geoffray-cinema/)
+- **Réalisation & contenu** : Camille Geoffray — [camillegeoffray.com](https://www.camillegeoffray.com)
 - **Production** : Lato Sensu Productions
 - **Site** : Hugo Lecuyer — [hugolecuyer.fr](https://hugolecuyer.fr)
