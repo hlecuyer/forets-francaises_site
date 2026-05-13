@@ -1,0 +1,26 @@
+# Notes privées projet
+suivis/
+
+# Config locale Claude Code
+.claude/
+
+# Vercel
+.vercel
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Archives design (redondant avec handoff/)
+*.zip
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Node (au cas où on ajouterait un build step)
+node_modules/
+
+# Logs
+*.log
