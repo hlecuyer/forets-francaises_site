@@ -3,7 +3,8 @@
 (function () {
   'use strict';
 
-  const VIMEO_ID = '688296230';
+  const TRAILER_VIMEO_ID = '688296230';
+  const HERO_BG_VIMEO_ID = '1191923789';
 
   const $ = (sel, root) => (root || document).querySelector(sel);
   const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
@@ -54,7 +55,7 @@
     if (e) e.preventDefault();
     lastFocus = document.activeElement;
     lightboxPlayer.innerHTML =
-      '<iframe src="https://player.vimeo.com/video/' + VIMEO_ID +
+      '<iframe src="https://player.vimeo.com/video/' + TRAILER_VIMEO_ID +
       '?autoplay=1&title=0&byline=0&portrait=0" ' +
       'allow="autoplay; fullscreen; picture-in-picture" allowfullscreen ' +
       'title="Bande-annonce — Forêts françaises, en quête d\'avenir"></iframe>';
@@ -158,7 +159,7 @@
     if (!wrap) return;
     const iframe = document.createElement('iframe');
     iframe.src =
-      'https://player.vimeo.com/video/' + VIMEO_ID +
+      'https://player.vimeo.com/video/' + HERO_BG_VIMEO_ID +
       '?background=1&autoplay=1&loop=1&muted=1&dnt=1';
     iframe.setAttribute('allow', 'autoplay; fullscreen');
     iframe.setAttribute('title', 'Bande-annonce — fond');
