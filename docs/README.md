@@ -5,7 +5,7 @@ Vanilla HTML/CSS/JS. Pas de build step.
 ## Structure
 
 ```
-code/
+docs/
 ├── index.html         # one-pager complet, 7 sections
 ├── styles.css         # design system + composants
 ├── script.js          # interactivité (lightbox, expand, scroll, hero video)
@@ -16,7 +16,7 @@ code/
 ## Développement local
 
 ```bash
-cd code/
+cd docs/
 python3 -m http.server 8765
 # Ouvrir http://localhost:8765
 ```
@@ -47,7 +47,7 @@ Toutes les images optimisées via ImageMagick (jpg q78-80, strip metadata, inter
 
 ## Déploiement Vercel
 
-Drag-and-drop du dossier `code/` dans le dashboard Vercel, ou :
+Drag-and-drop du dossier `docs/` dans le dashboard Vercel, ou :
 
 ```bash
 npx vercel --prod

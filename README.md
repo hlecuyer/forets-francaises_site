@@ -8,14 +8,14 @@ Objectif : permettre aux associations, cinémas et réseaux d'environnement de c
 
 ```
 .
-├── code/        # Site production (HTML/CSS/JS vanilla, prêt Vercel)
+├── docs/        # Site production (HTML/CSS/JS vanilla, déployé sur GitHub Pages et Vercel)
 ├── assets/      # Photos sources (Camille / PNRVN)
 └── handoff/     # Bundle Claude Design (référence design system)
 ```
 
 ## Déploiement
 
-Le site est déployé sur Vercel depuis le dossier `code/`. Voir `code/README.md` pour les détails techniques.
+Le site est déployé sur Vercel depuis le dossier `docs/`. Voir `docs/README.md` pour les détails techniques.
 
 ## Crédits
 
