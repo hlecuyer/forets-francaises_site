@@ -23,7 +23,7 @@
     "Cordialement,\n";
 
   const MAILTO_URL =
-    'mailto:cgeoffray.pro@gmail.com' +
+    'mailto:projection@forets-francaises.fr' +
     '?subject=' + encodeURIComponent("Demande de projection — Forêts françaises, en quête d'avenir") +
     '&body=' + encodeURIComponent(MAILTO_BODY);
 
@@ -191,7 +191,7 @@
       alert(
         "Mentions légales\n\n" +
         "Éditeur : Camille Geoffray\n" +
-        "Contact : cgeoffray.pro@gmail.com\n" +
+        "Contact : projection@forets-francaises.fr\n" +
         "Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA\n" +
         "Site conçu par Hugo Lecuyer — hugolecuyer.fr"
       );
