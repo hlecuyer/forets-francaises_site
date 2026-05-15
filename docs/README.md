@@ -45,15 +45,18 @@ python3 -m http.server 8765
 
 Toutes les images optimisées via ImageMagick (jpg q78-80, strip metadata, interlace).
 
-## Déploiement Vercel
+## Déploiement GitHub Pages
 
-Drag-and-drop du dossier `docs/` dans le dashboard Vercel, ou :
+Le site est servi par **GitHub Pages** depuis le dossier `docs/` de ce dépôt,
+avec domaine custom `forets-francaises.fr` (fichier `docs/CNAME`).
 
-```bash
-npx vercel --prod
-```
+Tout push sur la branche par défaut redéploie automatiquement (~1-2 min).
+Aucune config supplémentaire : GitHub Pages sert les fichiers statiques tels
+quels, y compris `robots.txt` et `sitemap.xml`.
 
-Configuration : aucune nécessaire, Vercel détecte un site statique.
+> Note : pas de Vercel. Les en-têtes HTTP de sécurité ne sont donc pas
+> appliqués (GitHub Pages ne lit pas de fichier de config type `vercel.json`).
+> À traiter via un proxy/CDN si ces en-têtes deviennent requis.
 
 ## TODO avant livraison Camille
 
